@@ -1,8 +1,12 @@
 # Predict Inflation
 
+## A Python framework for U.S. Core PCE inflation forecasts. Leverages PCA-based factor modeling, gradient boosting, Bayesian regression, and Markov-switching regimes to produce robust, regime-aware predictions.
+
 DESCRIPTION:
 
-A Python framework for U.S. Core PCE inflation forecasts. Leverages PCA-based factor modeling, gradient boosting, Bayesian regression, and Markov-switching regimes to produce robust, regime-aware predictions.
+This forecasting system predicts U.S. Core PCE inflation over multiple months using a diverse set of economic inputs, including money supply growth, commodity prices, financial market indicators, and consumer activity measures. It employs dimensionality reduction techniques such as PCA to extract core factors, augments these with momentum and volatility indicators, and accounts for seasonal patterns. The resulting feature set aims to isolate stable and relevant signals from a wide array of macroeconomic data.
+
+The model integrates several forecasting methods, including factor-based linear approaches, gradient boosting, and Bayesian regression, each contributing distinct strengths in capturing linear relationships, non-linear patterns, and uncertainty quantification. A regime-switching framework is used to adapt forecasts to changing economic conditions. While backtesting and calibration efforts seek to improve accuracy and reliability, potential gaps remain in refining interval estimation, enhancing regime detection, and incorporating additional data sources. Further methodological refinement and ongoing validation against new economic conditions may improve forecast precision and robustness over time.
 
 ---
 
